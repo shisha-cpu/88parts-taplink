@@ -105,6 +105,24 @@ a:hover {
         font-size: 1.4rem;
     }
 }
+header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 400px; /* Подстрой размер под нужный */
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 200px; /* Уменьшаем логотип на мобильных устройствах */
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .hero h1 {
         font-size: 4rem;
