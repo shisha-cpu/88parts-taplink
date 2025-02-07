@@ -94,15 +94,15 @@ a:hover {
 }
 
 /* Адаптивность */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1750px) {
     .hero h1 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
     .hero .tagline {
-        font-size: 2rem;
+        font-size: 1.8rem !important;
     }
     .hero .description {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 }
 @media screen and (max-width: 1200px) {
